@@ -75,7 +75,8 @@ static void exit_usage (char *name)
 
 			"\nFor <collectd options> see collectd.conf(5).\n"
 
-			"\n"PACKAGE" "VERSION", http://collectd.org/\n"
+			"\n"PACKAGE_NAME" "PACKAGE_VERSION""
+			", http://collectd.org/\n"
 			"by Florian octo Forster <octo@verplant.org>\n"
 			"for contributions see `AUTHORS'\n", name);
 	exit (0);
